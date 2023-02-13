@@ -14,14 +14,19 @@
         <h1>Conversor °C -> °F</h1>
 
         <form id="formulario">
-            <label for="celsius">Temperatura (C°):</label>
-            <input type="number" name="celsius" id="celsius"/>
-            <input type="button" value="Converter" onclick="convertFahrenheit()">
+            <label for="temperatura">Temperatura:</label>
+            <input type="number" name="temp" id="temp"/>
+
+            <div class="botoes">
+            <input type="button" value="Converter p/Fahrenheit" onclick="convertFahrenheit()">
+            <input type="button" value="Converter p/Celsius" onclick="convertCelsius()">
             <button type="reset" onclick="limpaTudo()">Limpar campo</button>
+             </div>
          </form>
 
          <div class="resultado">
             <p> </p>
+            
 
 
          </div>
